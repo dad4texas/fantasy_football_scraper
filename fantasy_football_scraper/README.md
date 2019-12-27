@@ -1,8 +1,12 @@
 # FantasyFootballScraper
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fantasy_football_scraper`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Make sure that when you run the program to change the directory of your cli to the directory
+that holds the fantasy_football_scraper program.
+To initiate the program, type ruby bin/kickoff.rb in the CLI prompt.
+The program will prompt the user if they want to see a list of players is so, 
+players are listed, and the user is prompted if they would like more detailed info on a 
+specific player, if so the user types the player's ranking number into the cli
+and more details and news are provided about that player.
 
 ## Installation
 

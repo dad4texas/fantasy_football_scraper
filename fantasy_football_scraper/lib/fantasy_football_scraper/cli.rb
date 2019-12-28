@@ -73,7 +73,9 @@ class FantasyFootballScraper::CLI
   end 
 
   def display_players
-    FantasyFootballScraper::Players.all.each do |player|
+ players = FantasyFootballScraper::Players.all
+    players_minus_first_index =  players[1..30]
+    players_minus_first_index.each do |player|
       puts "  Rank:".red + " #{player.rank}"
       puts "  Name:".blue + " #{player.name}"
       puts "  Team:".blue + " #{player.team}"

@@ -68,7 +68,8 @@ class FantasyFootballScraper::CLI
     puts "age:  ".blue + "#{doc.css(".bio-detail:nth-child(3)").text}"
     puts "college:  ".blue +  "#{doc.css(".bio-detail:nth-child(4)").text}"
     puts "next game: ".blue + "#{doc.css("div.next-game").text}"
-    puts "latest news:  ".green + "#{doc.css("p").text}"   
+    puts "latest news:  ".green + "#{doc.css("p").text}"
+    get_attributes
   end 
 
   def display_players

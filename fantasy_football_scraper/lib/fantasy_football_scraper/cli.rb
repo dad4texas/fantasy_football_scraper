@@ -13,8 +13,8 @@ class FantasyFootballScraper::CLI
 
   def fantasy_fb_kickoff
             
-    puts "Welcome to the Fantasy Football players Selector. If you would like see the fantasy ranking of the top NFL players
-    enter 'yes' if not enter 'no' "
+   puts "Welcome to the Fantasy Football players Selector. If you would like see the fantasy ranking of the top NFL players
+    enter".green + " yes".red + " if not enter".green + " no".red 
 
       choice = gets.chomp
       
